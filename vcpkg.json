@@ -1,0 +1,20 @@
+{
+  "name": "eigen-example",
+  "version": "1.0.0",
+  "description": "Example of how to use eigen",
+  "homepage": "https://github.com/nickelpro/eigen-example",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    "eigen3"
+  ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "67556daaf645f5e8b3c61fd39f2e207eace216b7",
+      "repository": "https://github.com/microsoft/vcpkg.git"
+    }
+  }
+}
